@@ -17,7 +17,7 @@ header {
 }
 
 .card {
-    flex: 0 1 calc(25% - 15px);
+    flex: 0 1 calc(33.333% - 14px);
     background-color: #e0f2fe;
     border: 2px solid #bae6fd;
     border-radius: 15px;
@@ -50,4 +50,3 @@ header {
 .more-btn:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
-
