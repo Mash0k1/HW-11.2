@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(135deg, #e0f2fe, #fef08a, #bbf7d0);
+    background-color: #fef08a;
     min-height: 100vh;
     margin: 0;
     padding: 20px;
@@ -7,8 +7,8 @@ body {
 }
 
 header {
-    background: linear-gradient(90deg, #3b82f6, #10b981, #f59e0b);
-    color: white;
+    background: linear-gradient(90deg, #fde047, #eab308, #ca8a04);
+    color: #1e3a8a;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
@@ -28,6 +28,7 @@ header {
     border-radius: 15px;
     padding: 15px;
     text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .card img {
