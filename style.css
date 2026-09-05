@@ -1,3 +1,20 @@
+body {
+    background: linear-gradient(135deg, #e0f2fe, #fef08a, #bbf7d0);
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: linear-gradient(90deg, #3b82f6, #10b981, #f59e0b);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -21,4 +38,20 @@
 .card p {
     margin-top: 10px;
     font-weight: bold;
+}
+
+.more-btn {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: box-shadow 0.3s ease; 
+}
+
+.more-btn:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
